@@ -1,0 +1,17 @@
+spring:
+  activemq:
+    broker-url: tcp://localhost:61616
+    user: sa
+    password: manager
+    packages:
+      trusted: bench.training.camel.boot.jpa.app.entities, java.lang, java.util
+custom:
+  endpoint:
+    file: "file:"
+    jpa: "jpa:"
+    direct: "direct:"
+    activemq: "activemq:"
+example:
+  generateOrderPeriod: 2s
+  generateUserPeriod: 1s
+  period: 3s

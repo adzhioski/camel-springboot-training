@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<orders>
+  <order category="books" title="Camel in Action">
+    <name>Camel in Action</name>
+    <authors>
+    <author>John</author>
+    </authors>
+  </order>
+  <order category="books" title="Camel in Action 2">
+  	<name>Camel in Action2</name>
+    <authors>
+    <author>Claus</author>
+    <author>Johnathan</author>
+    </authors>
+  </order>
+   <order category="books" title="Camel in Action 3">
+    <name>Camel in Action3</name>
+    <authors>
+    <author>John</author>
+    </authors>
+  </order>
+  <order category="Other" title="N/A">
+  	<name>Camel in Action4</name>
+    <authors>
+    <author>John</author>
+    </authors>
+  </order>
+</orders>
